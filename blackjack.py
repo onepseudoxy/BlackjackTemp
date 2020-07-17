@@ -117,10 +117,10 @@ def new_game():
     dealer_score_label.set(score_hand(dealer_hand))
     deal_player()
 
-
 def shuffle():
     random.shuffle(deck)
-
+def Amine():
+    print("Amine say Hello")
 mainWindow = tkinter.Tk()
 
 # Set up the screen and frames for the dealer and player
